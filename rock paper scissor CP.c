@@ -22,7 +22,7 @@ rockPaperScissor (char you, char comp)
       return 0;
     }
 
-  //rock
+  
 
   if (you == 'p' && comp == 'r')
     {
@@ -33,7 +33,7 @@ rockPaperScissor (char you, char comp)
       return -1;
     }
 
-  //paper
+  
   if (you == 'p' && comp == 's')
     {
       return -1;
@@ -44,7 +44,7 @@ rockPaperScissor (char you, char comp)
     }
 
 
-  //sissor
+ 
 
   if (you == 's' && comp == 'r')
     {
