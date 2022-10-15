@@ -54,8 +54,6 @@ rockPaperScissor (char you, char comp)
     {
       return 1;
     }
-
-
 }
 
 
