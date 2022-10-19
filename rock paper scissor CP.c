@@ -44,7 +44,7 @@ rockPaperScissor (char you, char comp)
     }
 
 
- 
+//rock paper scissor 
 
   if (you == 's' && comp == 'r')
     {
