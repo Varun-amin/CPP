@@ -55,7 +55,7 @@ rockPaperScissor (char you, char comp)
       return 1;
     }
 }
-//main function 
+//main function start
 
 int
 main ()
