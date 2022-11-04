@@ -5,6 +5,8 @@
 //main program 
 int
 rockPaperScissor (char you, char comp)
+  
+  //rock paper scissor
 {
   if (you != 'r' && you != 'p' && you != 's' && you != 'q')
     {
@@ -44,7 +46,7 @@ rockPaperScissor (char you, char comp)
     }
 
 
-//rock paper scissor 
+ 
 
   if (you == 's' && comp == 'r')
     {
