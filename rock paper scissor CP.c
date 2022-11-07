@@ -6,7 +6,7 @@
 int
 rockPaperScissor (char you, char comp)
   
-  //rock paper scissor
+  //rock paper scissor logic
 {
   if (you != 'r' && you != 'p' && you != 's' && you != 'q')
     {
@@ -45,9 +45,6 @@ rockPaperScissor (char you, char comp)
       return 1;
     }
 
-
- 
-
   if (you == 's' && comp == 'r')
     {
       return -1;
@@ -57,6 +54,7 @@ rockPaperScissor (char you, char comp)
       return 1;
     }
 }
+
 //main function start
 
 int
