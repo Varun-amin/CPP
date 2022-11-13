@@ -78,8 +78,7 @@ main ()
       comp = 's';
     }
 
-  printf
-    ("\nEnter ['r' for ROCK], ['p' for PAPER] and ['s' for SCISSOR]- (Press q to Quit) \n");
+  printf("\nEnter ['r' for ROCK], ['p' for PAPER] and ['s' for SCISSOR]- (Press q to Quit) \n");
   scanf (" %c", &you);
 
   result = rockPaperScissor (you, comp);
