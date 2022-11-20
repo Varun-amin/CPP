@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-//main program 
+//main program start
 int
 rockPaperScissor (char you, char comp)
   
