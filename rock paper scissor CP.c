@@ -2,11 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-//main program start
-int
-rockPaperScissor (char you, char comp)
-  
-  //rock paper scissor
+
+int rockPaperScissor (char you, char comp)
 {
   if (you != 'r' && you != 'p' && you != 's' && you != 'q')
     {
@@ -24,6 +21,8 @@ rockPaperScissor (char you, char comp)
       return 0;
     }
 
+  //rock
+
   if (you == 'p' && comp == 'r')
     {
       return 1;
@@ -33,7 +32,7 @@ rockPaperScissor (char you, char comp)
       return -1;
     }
 
-  
+  //paper
   if (you == 'p' && comp == 's')
     {
       return -1;
@@ -43,6 +42,9 @@ rockPaperScissor (char you, char comp)
       return 1;
     }
 
+
+  //sissor
+
   if (you == 's' && comp == 'r')
     {
       return -1;
@@ -51,12 +53,12 @@ rockPaperScissor (char you, char comp)
     {
       return 1;
     }
+
+
 }
 
-//main function start
 
-int
-main ()
+int main ()
 {
   int result;
   char you, comp;
@@ -76,7 +78,8 @@ main ()
       comp = 's';
     }
 
-  printf("\nEnter ['r' for ROCK], ['p' for PAPER] and ['s' for SCISSOR]- (Press q to Quit) \n");
+  printf
+    ("\nEnter ['r' for ROCK], ['p' for PAPER] and ['s' for SCISSOR]- (Press q to Quit) \n");
   scanf (" %c", &you);
 
   result = rockPaperScissor (you, comp);
@@ -106,4 +109,3 @@ main ()
     }
   return main ();
 }
-//end
