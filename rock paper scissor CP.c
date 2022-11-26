@@ -6,7 +6,7 @@
 int
 rockPaperScissor (char you, char comp)
   
-  //rock paper scissor logic
+  //rock paper scissor
 {
   if (you != 'r' && you != 'p' && you != 's' && you != 'q')
     {
