@@ -56,7 +56,7 @@ int rockPaperScissor (char you, char comp)
 
 
 }
-
+//logic
 
 int main ()
 {
