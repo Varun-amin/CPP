@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-//main lojic
+//main logic
 int rockPaperScissor (char you, char comp)
 {
   if (you != 'r' && you != 'p' && you != 's' && you != 'q')
@@ -56,6 +56,7 @@ int rockPaperScissor (char you, char comp)
 
 
 }
+
 //logic
 
 int main ()
@@ -109,4 +110,5 @@ int main ()
     }
   return main ();
 }
-//end
+
+//end of program
