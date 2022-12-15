@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-
+/// main prgm
 int rockPaperScissor (char you, char comp)
 {
   if (you != 'r' && you != 'p' && you != 's' && you != 'q')
