@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-/// main
+
 int rockPaperScissor (char you, char comp)
 {
   if (you != 'r' && you != 'p' && you != 's' && you != 'q')
@@ -16,11 +16,11 @@ int rockPaperScissor (char you, char comp)
       return 3;
     }
 
-
   if (you == comp)
     {
       return 0;
     }
+  
 
   //rock
 
@@ -32,6 +32,7 @@ int rockPaperScissor (char you, char comp)
     {
       return -1;
     }
+  
 
   //paper
   if (you == 'p' && comp == 's')
@@ -42,6 +43,7 @@ int rockPaperScissor (char you, char comp)
     {
       return 1;
     }
+  
 
   //sissor
 
