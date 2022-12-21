@@ -57,7 +57,7 @@ int rockPaperScissor (char you, char comp)
     }
 }
 
-//function start
+
 
 int main ()
 {
@@ -110,4 +110,5 @@ int main ()
     }
   return main ();
 }
+
 //end of program
