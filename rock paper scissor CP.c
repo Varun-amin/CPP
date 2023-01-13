@@ -5,7 +5,6 @@
 
 //start
 
-
 int rockPaperScissor (char you, char comp)
 {
   if (you != 'r' && you != 'p' && you != 's' && you != 'q')
@@ -60,7 +59,7 @@ int rockPaperScissor (char you, char comp)
 }
 
 
-
+//main
 
 int main ()
 {
