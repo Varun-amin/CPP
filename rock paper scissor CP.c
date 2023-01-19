@@ -59,7 +59,6 @@ int rockPaperScissor (char you, char comp)
 }
 
 
-//main
 
 int main ()
 {
@@ -112,5 +111,3 @@ int main ()
     }
   return main ();
 }
-
-//end
